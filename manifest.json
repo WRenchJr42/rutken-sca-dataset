@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "dataset_version": "osv-2026-09-24",
+  "files": [
+    {
+      "path": "payload/component-prefix-index-0.json",
+      "sha256": "77af9a19ccaf03cc1dc777cb86d59af5b37311c07883b243580ed380f225c8b3",
+      "size": 3657495,
+      "ecosystem": "maven",
+      "kind": "component-prefix-index"
+    },
+    {
+      "path": "payload/os-package-index-0.json",
+      "sha256": "0a0583fe8ff5d56206717797c9e5282d4dbb7d1781077571356e9cc1c08f631e",
+      "size": 14073314,
+      "ecosystem": "os-package",
+      "kind": "os-package-index"
+    }
+  ]
+}
