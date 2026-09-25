@@ -11,8 +11,8 @@
     },
     {
       "path": "payload/os-package-index-0.json",
-      "sha256": "066afb527e0a077964715bcb4ecc91dcd19cb8e95d47e413ab1b3f85183f00f5",
-      "size": 14078063,
+      "sha256": "c8f34cd2c4e012947d1632138a61634e0e230610678346292d20289d4f6da9c0",
+      "size": 14090639,
       "ecosystem": "os-package",
       "kind": "os-package-index"
     }
