@@ -1,0 +1,58 @@
+name: Rebuild dataset (nightly)
+
+# Rebuilds the OSV-derived SCA dataset and republishes it (GitHub Pages serves
+# this repo's root). Runs nightly and on manual dispatch. Requires a repo
+# secret RUTKEN_REPO_TOKEN: read access to the private
+# WRenchJr42/rutken_static_analyzer_private (to build tools/sca-dataset-build).
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # 04:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dataset-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this dataset repo
+        uses: actions/checkout@v4
+
+      - name: Check out Rutken (private source)
+        uses: actions/checkout@v4
+        with:
+          repository: WRenchJr42/rutken_static_analyzer_private
+          ref: phase-23.9-33-24-12
+          token: ${{ secrets.RUTKEN_REPO_TOKEN }}
+          path: rutken-src
+
+      - name: Build dataset from OSV
+        run: |
+          set -euo pipefail
+          VER="osv-$(date -u +%F)"
+          cargo run --release -p sca-dataset-build --bin build-dataset \
+            --manifest-path rutken-src/Cargo.toml -- \
+            --out "$GITHUB_WORKSPACE" --dataset-version "$VER" \
+            --ecosystem maven,debian,alpine
+          echo "DATASET_VERSION=$VER" >> "$GITHUB_ENV"
+
+      - name: Commit & publish if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "rutken-dataset-bot"
+          git config user.email "noreply@users.noreply.github.com"
+          rm -rf rutken-src
+          git add latest.json manifest.json payload/
+          if git diff --cached --quiet; then
+            echo "no dataset change; nothing to publish"
+          else
+            git commit -m "dataset ${DATASET_VERSION} (nightly rebuild)"
+            git push
+            echo "published ${DATASET_VERSION}"
+          fi
