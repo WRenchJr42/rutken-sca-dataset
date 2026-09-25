@@ -126007,18 +126007,6 @@
           "affected": []
         },
         {
-          "id": "DEBIAN-CVE-2026-59168",
-          "severity": null,
-          "url": "https://security-tracker.debian.org/tracker/CVE-2026-59168",
-          "affected": []
-        },
-        {
-          "id": "DEBIAN-CVE-2026-62866",
-          "severity": null,
-          "url": "https://security-tracker.debian.org/tracker/CVE-2026-62866",
-          "affected": []
-        },
-        {
           "id": "DEBIAN-CVE-2026-62866",
           "severity": null,
           "url": "https://security-tracker.debian.org/tracker/CVE-2026-62866",
@@ -129913,10 +129901,34 @@
           ]
         },
         {
+          "id": "DEBIAN-CVE-2017-0359",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2017-0359",
+          "affected": [
+            {
+              "introduced": null,
+              "fixed": "77",
+              "last_affected": null
+            }
+          ]
+        },
+        {
           "id": "DEBIAN-CVE-2024-25711",
           "severity": null,
           "url": "https://security-tracker.debian.org/tracker/CVE-2024-25711",
           "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2024-25711",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2024-25711",
+          "affected": [
+            {
+              "introduced": null,
+              "fixed": "256",
+              "last_affected": null
+            }
+          ]
         },
         {
           "id": "DEBIAN-CVE-2024-25711",
@@ -209585,6 +209597,78 @@
           "severity": null,
           "url": "https://security-tracker.debian.org/tracker/CVE-2026-56741",
           "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77420",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77420",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77420",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77420",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77420",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77420",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77421",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77421",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77421",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77421",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77421",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77421",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77422",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77422",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77422",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77422",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77422",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77422",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77423",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77423",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77423",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77423",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-77423",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-77423",
+          "affected": []
         }
       ]
     },
@@ -222145,6 +222229,42 @@
           "affected": []
         },
         {
+          "id": "DEBIAN-CVE-2026-92288",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-92288",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-92288",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-92288",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-92289",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-92289",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-92289",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-92289",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-95811",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-95811",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-95811",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-95811",
+          "affected": []
+        },
+        {
           "id": "DLA-1790-1",
           "severity": null,
           "url": null,
@@ -230263,39 +230383,45 @@
           "affected": []
         },
         {
-          "id": "DEBIAN-CVE-2026-9698",
+          "id": "DEBIAN-CVE-2026-88815",
           "severity": null,
-          "url": "https://security-tracker.debian.org/tracker/CVE-2026-9698",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88815",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-88815",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88815",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-88815",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88815",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-88816",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88816",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-88816",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88816",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-88816",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-88816",
           "affected": []
         },
         {
           "id": "DEBIAN-CVE-2026-9698",
           "severity": null,
           "url": "https://security-tracker.debian.org/tracker/CVE-2026-9698",
-          "affected": []
-        },
-        {
-          "id": "DEBIAN-CVE-2026-9698",
-          "severity": null,
-          "url": "https://security-tracker.debian.org/tracker/CVE-2026-9698",
-          "affected": []
-        },
-        {
-          "id": "DLA-2386-1",
-          "severity": null,
-          "url": null,
-          "affected": []
-        },
-        {
-          "id": "DLA-3035-1",
-          "severity": null,
-          "url": null,
-          "affected": []
-        },
-        {
-          "id": "DSA-658-1",
-          "severity": null,
-          "url": null,
           "affected": []
         }
       ]
@@ -466666,6 +466792,24 @@
           "id": "DEBIAN-CVE-2026-66139",
           "severity": null,
           "url": "https://security-tracker.debian.org/tracker/CVE-2026-66139",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-97404",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-97404",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-97404",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-97404",
+          "affected": []
+        },
+        {
+          "id": "DEBIAN-CVE-2026-97404",
+          "severity": null,
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-97404",
           "affected": []
         }
       ]
