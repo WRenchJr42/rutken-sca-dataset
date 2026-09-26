@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "dataset_version": "osv-2026-09-25",
+  "dataset_version": "osv-2026-09-26",
   "manifest_path": "manifest.json",
-  "manifest_sha256": "e15066321c2e21685d33fe21c9a27d45911004a3dc9a197f313cd3b4b1bd921a"
+  "manifest_sha256": "47e440b88e1f2b60db1449f9d8a3b0aca37bc1160ed02bedb15b624162f2632e"
 }

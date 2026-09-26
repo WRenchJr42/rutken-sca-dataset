@@ -3652,6 +3652,30 @@
     },
     {
       "ecosystem": "maven",
+      "name": "com.amazon.jenkins.fleet:ec2-fleet",
+      "prefixes": [
+        "com.amazon.jenkins.fleet"
+      ],
+      "advisories": [
+        {
+          "id": "GHSA-2x9c-vp3g-hvv2",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57295",
+          "affected": []
+        },
+        {
+          "id": "GHSA-9v77-j4xv-34gq",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57294",
+          "affected": []
+        }
+      ],
+      "coordinates": [
+        "com.amazon.jenkins.fleet:ec2-fleet"
+      ]
+    },
+    {
+      "ecosystem": "maven",
       "name": "com.amazon.redshift:redshift-jdbc42",
       "prefixes": [
         "com.amazon.redshift"
@@ -26918,6 +26942,18 @@
               "last_affected": "4.1.2.181"
             }
           ]
+        },
+        {
+          "id": "GHSA-x939-7fq5-v9v6",
+          "severity": "High",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12986",
+          "affected": [
+            {
+              "introduced": "4.0.0",
+              "fixed": "7.2026.6",
+              "last_affected": null
+            }
+          ]
         }
       ],
       "coordinates": [
@@ -29860,6 +29896,18 @@
       ],
       "advisories": [
         {
+          "id": "GHSA-jwhr-h7pc-3974",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57289",
+          "affected": [
+            {
+              "introduced": null,
+              "fixed": "3.3.9",
+              "last_affected": null
+            }
+          ]
+        },
+        {
           "id": "GHSA-vrpg-c7c4-8mpx",
           "severity": "High",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41937",
@@ -30616,6 +30664,12 @@
       ],
       "advisories": [
         {
+          "id": "GHSA-mpff-xhg4-vr45",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57300",
+          "affected": []
+        },
+        {
           "id": "GHSA-mrpq-9jr3-rqq9",
           "severity": "Medium",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64132",
@@ -30898,10 +30952,34 @@
       ],
       "advisories": [
         {
+          "id": "GHSA-2w2h-gwwj-fh3q",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57284",
+          "affected": [
+            {
+              "introduced": null,
+              "fixed": "4331.4333",
+              "last_affected": null
+            }
+          ]
+        },
+        {
           "id": "GHSA-4hjj-9gp7-4frg",
           "severity": "High",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43405",
           "affected": []
+        },
+        {
+          "id": "GHSA-72c8-3wwg-r59w",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57283",
+          "affected": [
+            {
+              "introduced": null,
+              "fixed": "4331.4333",
+              "last_affected": null
+            }
+          ]
         },
         {
           "id": "GHSA-7qw2-h9gj-hcvh",
@@ -31632,6 +31710,30 @@
       ],
       "coordinates": [
         "io.jenkins.plugins:xooa"
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "io.jenkins.plugins:zdevops",
+      "prefixes": [
+        "io.jenkins.plugins"
+      ],
+      "advisories": [
+        {
+          "id": "GHSA-43m2-hcmm-qpm7",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57306",
+          "affected": []
+        },
+        {
+          "id": "GHSA-xx59-jv36-5r44",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57307",
+          "affected": []
+        }
+      ],
+      "coordinates": [
+        "io.jenkins.plugins:zdevops"
       ]
     },
     {
@@ -91106,6 +91208,30 @@
               "last_affected": null
             }
           ]
+        },
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": []
+        },
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": []
+        },
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": [
+            {
+              "introduced": "9.2.0",
+              "fixed": "9.2.2",
+              "last_affected": null
+            }
+          ]
         }
       ],
       "coordinates": [
@@ -91119,6 +91245,30 @@
         "org.elasticsearch.plugin"
       ],
       "advisories": [
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": []
+        },
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": []
+        },
+        {
+          "id": "GHSA-m9gh-789g-q5pv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
+          "affected": [
+            {
+              "introduced": "9.2.0",
+              "fixed": "9.2.2",
+              "last_affected": null
+            }
+          ]
+        },
         {
           "id": "GHSA-qf7c-7r9h-mm92",
           "severity": "Medium",
@@ -91582,18 +91732,6 @@
           ]
         },
         {
-          "id": "GHSA-ghfh-p92w-j4mg",
-          "severity": "Medium",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52980",
-          "affected": [
-            {
-              "introduced": "7.17.0",
-              "fixed": "8.15.1",
-              "last_affected": null
-            }
-          ]
-        },
-        {
           "id": "GHSA-hqqv-9x3v-mp7w",
           "severity": "Medium",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7014",
@@ -91750,30 +91888,6 @@
           ]
         },
         {
-          "id": "GHSA-m9gh-789g-q5pv",
-          "severity": "Medium",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
-          "affected": []
-        },
-        {
-          "id": "GHSA-m9gh-789g-q5pv",
-          "severity": "Medium",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
-          "affected": []
-        },
-        {
-          "id": "GHSA-m9gh-789g-q5pv",
-          "severity": "Medium",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37731",
-          "affected": [
-            {
-              "introduced": "9.2.0",
-              "fixed": "9.2.2",
-              "last_affected": null
-            }
-          ]
-        },
-        {
           "id": "GHSA-mjpc-qx7h-r8c9",
           "severity": "Medium",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3824",
@@ -91880,10 +91994,82 @@
               "last_affected": null
             }
           ]
+        },
+        {
+          "id": "GHSA-r9fv-qpm9-rj4g",
+          "severity": "High",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3831",
+          "affected": [
+            {
+              "introduced": "5.6.0",
+              "fixed": "5.6.12",
+              "last_affected": null
+            }
+          ]
+        },
+        {
+          "id": "GHSA-r9fv-qpm9-rj4g",
+          "severity": "High",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3831",
+          "affected": [
+            {
+              "introduced": "6.0.0",
+              "fixed": "6.4.1",
+              "last_affected": null
+            }
+          ]
+        },
+        {
+          "id": "GHSA-vpqm-88c4-x4cv",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-17244",
+          "affected": [
+            {
+              "introduced": "6.4.0",
+              "fixed": "6.4.3",
+              "last_affected": null
+            }
+          ]
+        },
+        {
+          "id": "GHSA-w5gg-2q56-6h4f",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23450",
+          "affected": [
+            {
+              "introduced": "7.0.0",
+              "fixed": "7.17.19",
+              "last_affected": null
+            }
+          ]
         }
       ],
       "coordinates": [
         "org.elasticsearch:elasticsearch"
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "org.elasticsearch:elasticsearch-grok",
+      "prefixes": [
+        "org.elasticsearch"
+      ],
+      "advisories": [
+        {
+          "id": "GHSA-ghfh-p92w-j4mg",
+          "severity": "Medium",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52980",
+          "affected": [
+            {
+              "introduced": "7.17.0",
+              "fixed": "8.15.1",
+              "last_affected": null
+            }
+          ]
+        }
+      ],
+      "coordinates": [
+        "org.elasticsearch:elasticsearch-grok"
       ]
     },
     {
